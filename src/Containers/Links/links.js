@@ -3,6 +3,7 @@ import BackgroundCheck from "../../Components/BackgroundCheck/backgroundCheck";
 import Books from "../../Components/Books/books";
 import BooksDesign from "../../Components/BooksDesign/booksDesign";
 import BooksPython from "../../Components/BooksPython/booksPython";
+import SocialLinks from "../../Components/Social Links/SocialLinks";
 import Twitter from "../../Components/Twitter/twitter.js";
 import Zuri from "../../Components/Zuri/zuri";
 const Links = () => {
@@ -25,6 +26,9 @@ const Links = () => {
       </div>
       <div className="row">
         <BooksDesign />
+      </div>
+      <div className="row">
+        <SocialLinks />
       </div>
     </section>
   );
