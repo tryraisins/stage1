@@ -2,9 +2,11 @@ import React from "react";
 import "./slack.css";
 const Slack = () => {
   return (
-    <p id="slack" className="fs-3 fw-bold d-none">
-      TryRaisins
-    </p>
+    <div>
+      <p id="slack" className="mx-auto">
+        TryRaisins
+      </p>
+    </div>
   );
 };
 

@@ -6,16 +6,14 @@ import "./profile.css";
 const Profile = () => {
   return (
     <section className="profile">
-      <div className="container">
-        <div className="row">
-          <ProfilePicture />
-          {/* <div className="position-absolute top-0 end-0">
+      <div className="row">
+        <ProfilePicture />
+        {/* <div className="position-absolute top-0 end-0">
             <Icon />
           </div> */}
-        </div>
-        <div className="row">
-          <Slack />
-        </div>
+      </div>
+      <div className="row">
+        <Slack />
       </div>
     </section>
   );
