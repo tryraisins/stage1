@@ -4,8 +4,12 @@ import github from "../../assets/github.png";
 const SocialLinks = () => {
   return (
     <div>
-      <img src={slack} alt="slack" className="me-4" />
-      <img src={github} alt="github" />
+      <a href="https://app.slack.com/client/T042F7V19Q8/C041JU70S5U/rimeto_profile/U047WRMSS6T">
+        <img src={slack} alt="slack" className="me-4" />
+      </a>
+      <a href="https://github.com/tryraisins">
+        <img src={github} alt="github" />
+      </a>
     </div>
   );
 };

@@ -14,6 +14,9 @@
   margin: 0 16px;
   margin-bottom: 24px;
 }
+.links {
+  margin-bottom: 25px;
+}
 #slack,
 #profile-name {
   margin-top: 24px;
