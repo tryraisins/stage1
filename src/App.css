@@ -39,7 +39,7 @@
   margin-top: 64px;
 }
 .zuri-footer {
-  margin: 32px 0;
+  margin: 32px 4px;
   padding-top: 37.24px;
   border-top-style: solid;
   border-width: 1px;
@@ -47,5 +47,12 @@
 }
 
 .zuri-logo {
-  margin: 0 4px;
+  margin-bottom: 16px;
+}
+.zuri-logo-title {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
 }
