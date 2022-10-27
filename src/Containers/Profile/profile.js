@@ -3,7 +3,6 @@ import ProfileName from "../../Components/ProfileName/profileName.js";
 // import Icon from "../../Components/Icon/icon.js";
 import ProfilePicture from "../../Components/ProfilePicture/profilePicture.js";
 import Slack from "../../Components/Slack/slack.js";
-import "./profile.css";
 const Profile = () => {
   return (
     <section className="profile">

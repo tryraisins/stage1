@@ -5,7 +5,6 @@ import BooksDesign from "../../Components/BooksDesign/booksDesign";
 import BooksPython from "../../Components/BooksPython/booksPython";
 import Twitter from "../../Components/Twitter/twitter.js";
 import Zuri from "../../Components/Zuri/zuri";
-import "./links.css";
 const Links = () => {
   return (
     <section className="links container">
