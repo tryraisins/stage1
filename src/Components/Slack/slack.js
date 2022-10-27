@@ -1,9 +1,8 @@
 import React from "react";
-import "./slack.css";
 const Slack = () => {
   return (
     <div>
-      <p id="slack" className="mx-auto">
+      <p id="slack" className="mx-auto d-none">
         TryRaisins
       </p>
     </div>
