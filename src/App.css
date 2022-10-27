@@ -11,7 +11,7 @@
   letter-spacing: 0em;
   text-align: center;
   padding: 24px 0;
-  margin: 0 16px;
+  margin: 0 4px;
   margin-bottom: 24px;
 }
 .links {
@@ -37,4 +37,15 @@
 
 .profile {
   margin-top: 64px;
+}
+.zuri-footer {
+  margin: 32px 0;
+  padding-top: 37.24px;
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: #eaecf0;
+}
+
+.zuri-logo {
+  margin: 0 4px;
 }
