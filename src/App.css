@@ -10,8 +10,8 @@
   line-height: 20px;
   letter-spacing: 0em;
   text-align: center;
-  padding: 24px 0;
-  margin: 0 4px;
+  padding: 24px 4px;
+
   margin-bottom: 24px;
 }
 .links {
@@ -39,7 +39,10 @@
   margin-top: 64px;
 }
 .zuri-footer {
-  margin: 32px 4px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding-left: 4px;
+  padding-right: 4px;
   padding-top: 37.24px;
   border-top-style: solid;
   border-width: 1px;
@@ -55,4 +58,31 @@
   line-height: 20px;
   letter-spacing: 0em;
   text-align: left;
+}
+
+@media screen and (min-width: 992px) {
+  .links {
+    padding-left: 144px;
+    padding-right: 144px;
+  }
+  #slack,
+  #profile-name {
+    margin-bottom: 56px;
+  }
+  .spacer {
+    margin-bottom: 48px;
+  }
+  .profile {
+    margin-top: 64px;
+  }
+  .zuri-footer {
+    padding-left: 114px;
+    padding-right: 114px;
+  }
+
+  .zuri-logo-title {
+    width: 830px;
+    padding-left: 33px !important;
+    text-align: center;
+  }
 }

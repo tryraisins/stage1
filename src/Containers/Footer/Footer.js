@@ -20,16 +20,19 @@ const Footer = () => {
         </div>
 
         {/* FOR WEB VIEW */}
-        <div className="d-none d-lg-block">
-          <div className="row">
-            <img src={zuri} alt="zuri logo" className="zuri-logo col-4" />
+        <div className="d-none d-lg-inline-block w-100">
+          <div className="row ">
+            <img
+              src={zuri}
+              alt="zuri logo"
+              className="zuri-logo col-3  img-fluid "
+            />
 
-            <p className="zuri-logo-title col-4">
-              {" "}
+            <p className="zuri-logo-title col-6 align-self-center">
               HNG Internship 9 Frontend Task
             </p>
 
-            <img src={i4g} alt="i4g logo" className="col-4" />
+            <img src={i4g} alt="i4g logo" className="col-3  img-fluid" />
           </div>
         </div>
       </div>
