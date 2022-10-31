@@ -25,14 +25,18 @@ const Footer = () => {
             <img
               src={zuri}
               alt="zuri logo"
-              className="zuri-logo col-3  img-fluid "
+              className="zuri-logo col-3  img-fluid float-start "
             />
 
             <p className="zuri-logo-title col-6 align-self-center">
               HNG Internship 9 Frontend Task
             </p>
 
-            <img src={i4g} alt="i4g logo" className="col-3  img-fluid" />
+            <img
+              src={i4g}
+              alt="i4g logo"
+              className="col-3  img-fluid float-end"
+            />
           </div>
         </div>
       </div>

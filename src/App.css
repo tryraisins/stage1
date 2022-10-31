@@ -38,6 +38,9 @@
 .profile {
   margin-top: 64px;
 }
+#profile__img_hover {
+  display: none;
+}
 .zuri-footer {
   margin-top: 32px;
   margin-bottom: 32px;
@@ -61,6 +64,9 @@
 }
 
 @media screen and (min-width: 992px) {
+  a :hover {
+    background-color: #d0d5dd;
+  }
   .links {
     padding-left: 144px;
     padding-right: 144px;
@@ -72,10 +78,23 @@
   .spacer {
     margin-bottom: 48px;
   }
+  .twitter :hover {
+    background-color: #d0d5dd;
+  }
   .profile {
     margin-top: 64px;
   }
+  #profile__img:hover {
+    filter: brightness(60%);
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
   .zuri-footer {
+    margin-top: 89px;
     padding-left: 114px;
     padding-right: 114px;
   }
