@@ -13,7 +13,7 @@
   letter-spacing: 0em;
   text-align: center;
   padding: 24px 4px;
-
+  cursor: pointer !important;
   margin-bottom: 24px;
 }
 .links {
@@ -78,6 +78,7 @@
   .spacer {
     margin-bottom: 48px;
   }
+
   .twitter :hover {
     background-color: #d0d5dd;
   }
