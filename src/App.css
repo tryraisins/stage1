@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+.camera {
+  display: none;
+}
 .link-button {
   background: #eaecf0;
   font-family: Arial, Helvetica, sans-serif;
@@ -38,9 +40,7 @@
 .profile {
   margin-top: 64px;
 }
-#profile__img_hover {
-  display: none;
-}
+
 .zuri-footer {
   margin-top: 32px;
   margin-bottom: 32px;
@@ -93,6 +93,16 @@
     -ms-transition: all 0.5s ease;
     transition: all 0.5s ease;
   }
+  #profile__img:hover + .camera {
+    display: block;
+    filter: brightness(60%);
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
   .zuri-footer {
     margin-top: 89px;
     padding-left: 114px;
@@ -100,7 +110,6 @@
   }
 
   .zuri-logo-title {
-    width: 830px;
     padding-left: 33px !important;
     text-align: center;
   }
